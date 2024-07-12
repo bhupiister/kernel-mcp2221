@@ -1,6 +1,6 @@
 ifneq ($(KERNELRELEASE),)
 
-obj-m := logger.o
+obj-m := hid-mcp2221.o
 
 else
 
